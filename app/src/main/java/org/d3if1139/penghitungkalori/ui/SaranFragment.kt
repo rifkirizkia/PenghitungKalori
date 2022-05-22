@@ -18,6 +18,7 @@ class SaranFragment : Fragment(){
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
+
     ): View? {
         binding = FragmentSaranMakananBinding.inflate(inflater, container, false)
         return binding.root
