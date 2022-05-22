@@ -66,7 +66,7 @@ class HistoriAdapter :
             tanggalTextView.text = dateFormatter.format(Date(item.tanggal))
             kaloriTextView.text = root.context.getString(
                 R.string.hasil_x,
-                hasilKalori.kalori, hasilKalori.kategori.toString()
+                hasilKalori.kalori, hasilKalori.kategori
             )
 
             val gender = root.context.getString(

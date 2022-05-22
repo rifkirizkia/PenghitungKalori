@@ -18,7 +18,7 @@ abstract class Kalori: RoomDatabase(){
                     instance = Room.databaseBuilder(
                         context.applicationContext,
                         Kalori::class.java,
-                        "bmi.db"
+                        "kalori.db"
                     )
                         .fallbackToDestructiveMigration()
                         .build()
